@@ -80,7 +80,7 @@ const Header = () => {
 
       <div className="Navigation flex  bg-[#000d6b] md:justify-between">
 
-        <span className="mobile__menu cursor-pointer md:hidden text-white text-[35px]">
+        <span className="mobile__menu cursor-pointer md:hidden text-white text-[25px] ml-5 my-3">
           <i class="ri-menu-line" onClick={toggleMenu}></i>
         </span>
 
