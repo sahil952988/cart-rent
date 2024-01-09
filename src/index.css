@@ -10,5 +10,10 @@
 @media only screen and (max-width: 768px) {
   .menu {
     display: none;
+    padding-top: 400px;
+  }
+
+  .menu__active {
+    display: block;
   }
 }

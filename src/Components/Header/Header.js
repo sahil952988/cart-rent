@@ -85,7 +85,7 @@ const Header = () => {
         </span>
 
 
-        <section className="menu md:relative absolute flex md:flex-row md:justify-normal flex-col justify-center md:pl-[120px] pl-20 md:space-x-10  md:text-white md:py-5 md:z-0 z-[9999] md:bg-transparent bg-gray-300 md:w-0 w-[50%] md:h-0 h-[100%] md:space-y-0 space-y-5 " ref={menuRef} onClick={toggleMenu} >
+        <section className="menu md:relative absolute flex md:flex-row flex-col md:pl-[120px] pl-20 md:space-x-10  md:text-white md:py-5 md:z-0 z-[9999] md:bg-transparent bg-gray-300 md:w-0 w-[50%] md:h-0 h-[100%] md:space-y-0 space-y-5 " ref={menuRef} onClick={toggleMenu} >
           {
             Nav_Links.map((item, index) => {
               return (
