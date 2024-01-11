@@ -1,6 +1,6 @@
 import React, { useRef } from "react"
 import { NavLink } from "react-router-dom"
-
+import "../../Styles/Header.css"
 const Nav_Links = [
   {
     display: "Home",
