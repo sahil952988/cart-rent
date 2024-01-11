@@ -25,7 +25,7 @@ const HeroSlider = () => {
             </div>
           </div>
         </div>
-
+        {/* 
         <div className="slider__item-02 mt-[-25px]  h-[650px]">
           <div>
             <div className="slider__content md:pl-[120px] pl-5">
@@ -46,7 +46,7 @@ const HeroSlider = () => {
               <button className="rounded-[8px] bg-white px-2 py-2 text-[#000d6b] mt-5">Reserve Now</button>
             </div>
           </div>
-        </div>
+        </div> */}
 
       </Slider>
     </>
