@@ -37,7 +37,7 @@ const FindCarForm = () => {
           <div className="form_date md:flex flex-col md:ml-0 ml-5 md:mr-0 mr-5">
             <input className="mb-5 border-2 border-[#7c8a972a] pl-3 py-2 md:w-[250px] w-[100%] outline-none" type="date" placeholder="Journey Date" required />
 
-            <button onSubmit={Submit} className="cursor-pointer pl-2 py-2 md:w-[250px] w-[100%] bg-[#000d6b] text-white rounded-[5px] md:mb-0 mb-10">Find Car</button>
+            <button type="submit" className="cursor-pointer pl-2 py-2 md:w-[250px] w-[100%] bg-[#000d6b] text-white rounded-[5px] md:mb-0 mb-10">Find Car</button>
           </div>
         </div>
 
