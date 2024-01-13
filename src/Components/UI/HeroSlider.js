@@ -22,7 +22,7 @@ const HeroSlider = () => {
               <h4 className="md:text-[24px] text-[22px] text-white md:pt-[200px] pt-[100px]">For Rent $70 Per Day</h4>
               <h1 className="md:text-[51.2px] text-[24px] text-white pt-5">Reserve Now and Get 50% Off</h1>
 
-              <button className="rounded-[8px] bg-white px-2 py-2 text-[#000d6b] mt-5"><Link to="/Cars">Reserve Now</Link></button>
+              <button className="rounded-[8px] bg-white px-2 py-2 text-[#000d6b] mt-5">Reserve Now</button>
             </div>
           </div>
         </div>
@@ -33,7 +33,9 @@ const HeroSlider = () => {
               <h4 className="md:text-[24px] text-[22px] text-white md:pt-[200px] pt-[100px]">For Rent $70 Per Day</h4>
               <h1 className="md:text-[51.2px] text-[24px] text-white pt-5">Reserve Now and Get 50% Off</h1>
 
-              <button className="rounded-[8px] bg-white px-2 py-2 text-[#000d6b] mt-5">Reserve Now</button>
+              <button className="rounded-[8px] bg-white px-2 py-2 text-[#000d6b] mt-5">
+                <Link to="/cars">Reserve Now</Link>
+              </button>
             </div>
           </div>
         </div>

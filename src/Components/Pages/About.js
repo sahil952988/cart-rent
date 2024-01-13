@@ -3,6 +3,8 @@ import { Helmet } from "../Helmet/Helmet"
 import CommonSection from "../UI/CommonSection"
 import BMWCAR from "../../assets/all-images/cars-img/bmw-offer.png"
 import Drive_img from "../../assets/all-images/drive.jpg"
+import BecomeDriver from "../UI/BecomeDriver"
+import OurMembers from "../UI/OurMembers"
 
 
 const About = () => {
@@ -36,9 +38,6 @@ const About = () => {
           </div>
         </div>
 
-
-
-
         <div className="About_page md:flex mt-20 md:ml-[120px] md:mr-[120px] mr-3 mb-20">
           <div className="drive_img hidden md:block">
             <img className="w-[600px] rounded-[5px] " src={Drive_img} alt="drive" />
@@ -61,6 +60,15 @@ const About = () => {
           </div>
 
         </div>
+
+        {/* ========== BECOME A DRIVER =========== */}
+        <BecomeDriver />
+
+
+        {/* ============ OUR MEMBERS ============== */}
+        <section className="flex md:ml-[120px] md:mr-[120px] gap-6 mt-16 mb-20">
+          <OurMembers />
+        </section>
       </Helmet>
     </>
   )
