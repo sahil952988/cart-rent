@@ -38,7 +38,7 @@ const Footer = () => {
             <p className="text-gray-500 md:text-[16px] text-[12px]">Suscrube our newsletter</p>
 
             <div className="md:mr-[120px] mr-3 bg-[#020a4de9] rounded-[10px] h-10 flex justify-between ">
-              <input className=" outline-none bg-transparent pl-4 py-2 text-[#fff]" type="search" placeholder="search" />
+              <input className=" outline-none bg-transparent pl-4 py-2 text-[#fff]" type="search" placeholder="Email" />
               <span className="text-gray-500 pr-2 pt-2 cursor-pointer"><i class="ri-send-plane-line"></i></span>
             </div>
 
