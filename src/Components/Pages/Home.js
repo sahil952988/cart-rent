@@ -18,9 +18,12 @@ const Home = () => {
     <Helmet title="Home">
       <HeroSlider />
       <FindCarForm />
+
+      {/* ============ ABOUT SECTION =============== */}
       <section className="md:pt-40 pt-10">
         <AboutSection />
       </section>
+
 
       {/* ========== POPULAR SERVICES ============== */}
       <div className="flex justify-center md:mt-20">
@@ -32,6 +35,7 @@ const Home = () => {
       <section className="md:grid md:grid-cols-3 md:gap-4 space-y-5 md:mt-10 mt-5">
         <ServiceList />
       </section>
+
 
       {/* ================= CAR INFO ==================== */}
       <div className="flex justify-center md:mt-20 mt-16">
@@ -78,9 +82,6 @@ const Home = () => {
           )
         })}
       </section>
-
-
-
 
     </Helmet>
   )

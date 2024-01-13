@@ -78,14 +78,14 @@ const Header = () => {
 
       {/* ============ END HEADER ======== */}
 
-      <div className="Navigation flex  bg-[#000d6b] md:justify-between">
+      <div className="main-nav flex  bg-[#000d6b] md:justify-between">
 
         <span className="mobile__menu cursor-pointer md:hidden text-white text-[25px] ml-5 my-3">
           <i class="ri-menu-line" onClick={toggleMenu}></i>
         </span>
 
 
-        <section className="menu md:relative absolute flex md:flex-row flex-col md:pl-[120px] pl-20 md:space-x-10  md:text-white md:py-5 md:z-0 z-[9999] md:bg-transparent bg-gray-300 md:w-0 w-[50%] md:h-0 h-[100%] md:space-y-0 space-y-5 " ref={menuRef} onClick={toggleMenu} >
+        <section className="Navigation md:relative absolute flex md:flex-row flex-col md:pl-[120px] pl-20 md:space-x-10  md:text-white md:py-5 md:z-0 z-[9999] md:bg-transparent bg-[#F5FFFB] md:w-0 w-[70%] md:h-0 h-[100%] md:space-y-0 space-y-7 font-semibold " ref={menuRef} onClick={toggleMenu} >
           {
             Nav_Links.map((item, index) => {
               return (
@@ -96,11 +96,6 @@ const Header = () => {
             })
           }
         </section>
-
-
-
-
-
 
         <div className="nav_right mt-3 md:mr-[120px] bg-[#020a4de9] rounded-[10px] h-10 md:visible invisible">
           <input className=" outline-none bg-transparent pl-4 py-2 text-[#fff]" type="search" placeholder="search" />
